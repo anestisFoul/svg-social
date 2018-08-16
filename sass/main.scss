@@ -1,0 +1,47 @@
+
+.social {
+  border-color: #f1c40f;
+  color: #fff;
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
+  
+  &.facebook {
+    background-image: linear-gradient(45deg, #3b5998 50%, transparent 50%);
+    &.hover {
+      background-position: 0;
+    }
+  }
+  
+  &.twitter {
+    background-image: linear-gradient(45deg, #1da1f2 50%, transparent 50%);
+
+    &.hover {
+      background-position: 0;
+    }
+  }
+  
+  &.pinterest {
+    background-image: linear-gradient(45deg, #bd081c 50%, transparent 50%);
+
+    &.hover {
+      background-position: 0;
+    }
+  }
+  
+  &.youtube {
+    background-image: linear-gradient(45deg, #ff0000 50%, transparent 50%);
+
+    &.hover {
+      background-position: 0;
+    }
+  }
+  
+  &.instagram {
+    background-image: linear-gradient(45deg, #833ab4 50%, transparent 50%);
+
+    &.hover {
+      background-position: 0;
+    }
+  }
+}
